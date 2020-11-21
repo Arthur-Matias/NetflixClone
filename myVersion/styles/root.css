@@ -1,0 +1,23 @@
+:root{
+    --red: #E50914;
+    --black: #141414;
+    --white: #FFF;
+}
+
+body{
+    background-color: var(--black);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: var(--white);
+    line-height: 1.2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*mantém os elementos dentro da caixa*/
+}
+
+.container{
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
