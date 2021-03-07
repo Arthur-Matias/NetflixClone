@@ -1,0 +1,60 @@
+.highlight-movie{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 1)), url(../assets/img/capa-house.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.movie-title{
+    margin-top: 15%;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.movie-description{
+    margin-bottom: 4em;
+    max-width: 70%;
+}
+
+.highlight-buttons{
+    display: flex;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    color: var(--white);
+
+    padding: 1.5rem 3rem;
+    margin-right: 1.5rem;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .5s ease-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.btn i{
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 600px){
+    .movie-description{
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,10 @@
+.movie-box{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.movie-carousel{
+    margin-top: 1rem;
+    max-height: 5rem;
+}
